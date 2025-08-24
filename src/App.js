@@ -61,7 +61,7 @@ const HomePage = () => {
     },
     {
       name: 'Ball Box Game',
-      path: '/interview-questions',
+      path: '/ball-box-game',
       description: 'Practice coding interview questions',
       icon: <FaBowlingBall/>
     }
@@ -160,7 +160,7 @@ const Navigation = () => {
           <Link to="/natural-numbers" style={navLinkStyle}>Natural Numbers</Link>
           <Link to="/factorial-calculator" style={navLinkStyle}>Factorial</Link>
           <Link to="/greatest-of-three" style={navLinkStyle}>Greatest</Link>
-          <Link to="/interview-questions" style={navLinkStyle}>Ball Box Game</Link>
+          <Link to="/ball-box-game" style={navLinkStyle}>Ball Box Game</Link>
         </div>
       </div>
     </nav>
@@ -257,7 +257,7 @@ function App() {
           />
           
           <Route 
-            path="/interview-questions" 
+            path="/ball-box-game" 
             element={
               <PageWrapper title="Interview Questions">
                 <InterviewQuestion />

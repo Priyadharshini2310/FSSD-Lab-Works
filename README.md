@@ -177,4 +177,4 @@ If you encounter any issues or have questions:
 
 **Happy Coding!** 🎉
 
-Built with ❤️ using React and modern web technologies.
+Built with ❤️ using React and modern web technologkoies.
